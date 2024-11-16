@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+    <head>
+        <layout>
+            <root-layout width="1920" height="1080" background-color="transparent"/>
+            <region id="description" top="90%" left="0" width="100%" height="150"/>
+            <region id="image_video" top="0" left="0" width="100%" height="100%" fit="meet"/>
+        </layout>
+    </head>
+    <body>
+        <seq>
+            <par>
+                <img region="image_video" dur="7s" src="image1.png"/>
+            </par>
+            <par>
+                <img region="image_video" dur="5s" src="image2.png"/>
+            </par>
+            <par>
+                <img region="image_video" dur="5s" src="image3.jpg"/>
+            </par>
+            <par>
+                <video region="image_video" dur="9s" src="redeemer.mp4"/>
+            </par>
+            <par>
+                <img region="image_video" dur="6s" src="image4.png"/>
+            </par>
+            
+        </seq>
+    </body>
+</smil>
